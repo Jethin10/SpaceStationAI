@@ -1,0 +1,16 @@
+# OS/IDE
+__pycache__/
+.DS_Store
+.idea/
+.vscode/
+
+# Large/local stuff
+datasets/
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+*.ckpt
+*.zip
+wandb/

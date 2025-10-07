@@ -1,0 +1,15 @@
+# configs/data.yaml
+path: ../datasets
+train: train3/images
+val: val3/images
+# test: val3/images  # optional if you want to reuse val as test
+
+nc: 7
+names:
+  - OxygenTank
+  - NitrogenTank
+  - FirstAidBox
+  - FireAlarm
+  - SafetySwitchPanel
+  - EmergencyPhone
+  - FireExtinguisher
