@@ -1,16 +1,10 @@
-# OS/IDE
-__pycache__/
-.DS_Store
-.idea/
-.vscode/
-
-# Large/local stuff
-datasets/
+# Ignore heavy or local-only files
 runs/
-weights/
+datasets/
 *.pt
 *.onnx
-*.engine
-*.ckpt
+__pycache__/
+*.log
 *.zip
-wandb/
+.idea/
+.vscode/
